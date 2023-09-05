@@ -1,0 +1,12 @@
+body{
+	background-color: lightsalmon;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	background-color: lightgrey;
+	color: silver;
+}
+.text1{
+	border: dotted 5px pink;
+}

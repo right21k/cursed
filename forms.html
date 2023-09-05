@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>forms</title>
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+</head>
+<body>
+	<p>Ми вивчаемо форми</p>
+<form name="form1">
+	<input type="text" name="text1" size="25" maxlength="30" value="напишить тут щось" class="text1">
+	<input type="text" name="text2" size="25" maxlength="30" value="тут писати не можна" class="text1" disabled>
+	<br/>
+	login <input type="text" name="login">
+	Password <input type="password" name="password">
+	<br/>
+	Gender <input type="radio" name="gender" value="male" checked>male
+	<input type="radio" name="gender" value="female">female
+	<br/>
+	Languages 
+	<input type="checkbox" name="lang1" value="english">english
+	<input type="checkbox" name="lang2" value="french">french
+	<input type="checkbox" name="lang3" value="spanish">spanish
+	<input type="checkbox" name="lang4" value="german">german
+	<input type="submit" name="submit" value="Підтвердити">
+	<input type="reset" name="reset" value="Скинути">
+	<input type="button" name="button" value="відправити">
+	<button name="submit1" type="submit">fff</button>
+	<br/>
+	<input type="file" name="load">
+	<br/>
+	enter information about u
+	<textarea cols="20" rows="3" wrap="off"></textarea>
+	<textarea cols="40" rows="6" wrap="physical"></textarea>
+	<textarea cols="60" rows="9" wrap="virtual"></textarea>
+	<br/>
+	choose language
+	<select name="lang">
+		<option value="english">english</option>
+		<option value="french">french</option>
+		<option value="spanish">spanish</option>
+		<option value="german">german</option>
+	</select>
+	<br/>
+	choose day of week
+	<select name="day" multiple size="7">
+		<option>monday</option>
+		<option>tuesday</option>
+		<option>wednesday</option>
+		<option>thursday</option>
+		<option>friday</option>
+		<option>saturday</option>
+		<option>sunday</option>
+	</select>
+</form>
+</body>
+</html>
